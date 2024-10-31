@@ -6,11 +6,11 @@ export const profiles = [
         gitHubUserName: "MariamHasanat",
     },
     {
-        name: "Mariam Hasanat",
+        name: "Majd Tamimi",
         jobTitle: "Frontend Developer",
         sex: "female",
-        gitHubUserName: "MariamHasanat",
-        comment: "Nice sisson"
+        gitHubUserName: "MajdTamimi",
+        comment: "Nice sisson",
     }
 ]
 
