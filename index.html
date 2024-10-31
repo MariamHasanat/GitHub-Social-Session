@@ -6,17 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>GitHubSocial</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+            background-color: aliceblue;
+            width: 100vw;
+            height: 10vh;
+        }
+
+        #nav {
+            display: flex;
+            gap: 40px;
+            align-content: center;
+            align-items: center;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <span>logo</span>
-        <nav>
-            <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#oontact">contact us</a></li>
-                <li><a href="#posts">posts</a></li>
-            </ul>
+        <input type="search" name="search" id="search" autocomplete="off">
+        <nav id="nav">
+            <a href="#home">home</a>
+            <a href="#oontact">contact us</a>
+            <a style="display: flex; align-items: center;">settings&nbsp;&nbsp;&nbsp;<img src=".\assets\profile-14.jpg"
+                    alt="icon" width="30px" height="30px" style="border-radius: 50%;"></a>
         </nav>
     </header>
     <article>
@@ -29,10 +52,12 @@
             messages
         </div>
     </aside>
+
     <footer>
         <ul>
             <li><a href="https://github.com/MariamHasanat">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/mariam-hasanat-80385a1b6" rel="noopener noreferrer" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.linkedin.com/in/mariam-hasanat-80385a1b6" rel="noopener noreferrer"
+                    target="_blank">LinkedIn</a></li>
             <li><a href="mailto:hasanattmariam@gmail.com">Gmail</a></li>
             <li><a href="tel:+972 569096924">Phone</a></li>
         </ul>
