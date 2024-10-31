@@ -1,16 +1,10 @@
-export const profiles = [
-    {
-        name: "Mariam Hasanat",
-        jobTitle: "Frontend Developer",
-        sex: "female",
-        gitHubUserName: "MariamHasanat",
-    },
+export const commenter = [
     {
         name: "Majd Tamimi",
         jobTitle: "Frontend Developer",
         sex: "female",
         gitHubUserName: "MajdTamimi",
-        comment: "Nice sisson",
+        commentdata: "Nice sisson",
     }
 ]
 
