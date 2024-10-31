@@ -1,2 +1,162 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    padding: 2rem;
+    max-width: 1200px;
+    min-width: 320px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: #ffe4e6;
+    height: 10vh;
+}
+
+#nav {
+    display: flex;
+    gap: 40px;
+    align-content: center;
+    align-items: center;
+}
+
+#footer {
+    height: 15vh;
+    background-color: #ffe4e6;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.header {
+    grid-area: header;
+}
+
+.footer {
+    grid-area: footer;
+    align-self: flex-end;
+}
+
+#aside {
+    grid-area: aside;
+    background-color: #fecdd3;
+
+
+}
+
+#article {
+    grid-area: article;
+}
+
+#body {
+    font-family: 'Poppins';
+    width: 100%;
+    background-color: #fefefe;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 25vw 5vw 55vw 15vw;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header header header"
+        "aside . article ."
+        "footer footer footer footer";
+}
+
+/* ----------------------------------------------------------------- */
+.imgName {
+    display: flex;
+    align-items: center;
+}
+
+.onePost {
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    max-width: 49vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: flex-start;
+    background-color: #fecdd3;
+    border-radius: 15px;
+
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+.comment {
+    background-color: #fefefe;
+    padding: 15px;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 10px;
+}
+
+.commentAuther,
+.postAuther {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.imgPost {
+    border-radius: 15px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+#search {
+    width: 30vw;
+    height: 5vh;
+    border-radius: 15px;
+    border: 0px;
+    background-color: #fefefe;
+}
+
+.singleElement {
+    padding: 10px;
+    padding-left: 15px;
+    background-color: #fefefe;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 20vw;
+    height: 7vh;
+}
+
+aside,
+article,
+footer,
+a {
+    color: #4c0519;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    padding: 10px;
+ 
+}
+#iconContact{
+    height: 30px;
+    width: 30px;
+}
