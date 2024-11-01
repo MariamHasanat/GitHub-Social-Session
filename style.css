@@ -122,13 +122,12 @@ li {
 }
 
 .singleElement {
-    padding: 10px;
-    padding-left: 15px;
+    border-left: #4c0519;
     background-color: #fefefe;
-    margin-top: 15px;
-    margin-left: 15px;
-    width: 20vw;
-    height: 7vh;
+    padding: 6%;
+    margin: 3.5%;
+    width: 90%;
+    height: 20%;
 }
 
 aside,
@@ -157,5 +156,12 @@ a {
 }
 
 .borderRadiase{
-    border-radius: 15px;
+    border-radius: 12px;
+}
+
+#element1,
+#element2,
+#element3,
+#element4{
+    border-left: 10px solid #4c0519;
 }
