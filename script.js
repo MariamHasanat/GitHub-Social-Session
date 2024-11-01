@@ -8,7 +8,7 @@ commenter
         const { sex, name, jobTitle, gitHubUserName, commentdata } = profile;
         const imgSrc = sex == "male" ? "man.png" : "woman.png";
 
-        const comment = `<div class="comment">
+        const comment = `<div class="comment borderRadiase">
                     <div class="imgName">
                         <img src="./assets/${imgSrc}" alt="icon" width="30px" height="30px"
                             style="border-radius: 50%;">&nbsp;&nbsp;

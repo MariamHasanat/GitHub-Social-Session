@@ -6,12 +6,6 @@
     box-sizing: border-box;
 }
 
-#root {
-    padding: 2rem;
-    max-width: 1200px;
-    min-width: 320px;
-}
-
 #header {
     display: flex;
     flex-direction: row;
@@ -19,7 +13,7 @@
     align-items: center;
     align-content: center;
     background-color: #ffe4e6;
-    height: 10vh;
+    height: 11vh;
 }
 
 #nav {
@@ -30,7 +24,7 @@
 }
 
 #footer {
-    height: 15vh;
+    height: 13vh;
     background-color: #ffe4e6;
     display: flex;
     align-content: center;
@@ -58,10 +52,10 @@
 }
 
 #body {
+    /* max-width: 6vw; */
     font-family: 'Poppins';
-    width: 100%;
     background-color: #fefefe;
-    height: 100vh;
+    height: 100%;
     display: grid;
     grid-template-columns: 25vw 5vw 55vw 15vw;
     grid-template-rows: auto;
@@ -78,30 +72,26 @@
 }
 
 .onePost {
-    padding: 20px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    max-width: 49vw;
+    padding: 4%;
+    margin: 5%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 15px;
     align-items: flex-start;
     background-color: #fecdd3;
-    border-radius: 15px;
 
 }
 
 div {
-    margin-bottom: 10px;
+    margin-bottom: 3%;
 }
 
 .comment {
     background-color: #fefefe;
-    padding: 15px;
-    border-radius: 15px 15px 15px 15px;
+    padding: 3%;
     margin-bottom: 10px;
-    width: 46vw;
+    width: 100%;
 }
 
 .commentAuther,
@@ -111,7 +101,8 @@ div {
 }
 
 .imgPost {
-    border-radius: 15px;
+    height: 100%; 
+    width: 100%;
 }
 
 a {
@@ -126,7 +117,6 @@ li {
 #search {
     width: 30vw;
     height: 5vh;
-    border-radius: 15px;
     border: 0px;
     background-color: #fefefe;
 }
@@ -135,7 +125,6 @@ li {
     padding: 10px;
     padding-left: 15px;
     background-color: #fefefe;
-    border-radius: 15px;
     margin-top: 15px;
     margin-left: 15px;
     width: 20vw;
@@ -152,10 +141,8 @@ a {
 #contact {
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 20%;
     justify-content: center;
-    padding: 10px;
- 
 }
 #iconContact{
     height: 30px;
@@ -166,4 +153,9 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    width: 100%;
+}
+
+.borderRadiase{
+    border-radius: 15px;
 }
