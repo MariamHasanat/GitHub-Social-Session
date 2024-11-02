@@ -1,10 +1,10 @@
 export const commenters = [
     {
-        name: "Majd Tamimi",
+        name: "Anas Zhour",
         jobTitle: "Frontend Developer",
-        sex: "female",
-        gitHubUserName: "MajdTamimi",
-        commentData: "Nice sisson",
+        sex: "Male",
+        gitHubUserName: "anaszhoor",
+        commentData: "Thank You All, Great session",
     }
 ]
 
