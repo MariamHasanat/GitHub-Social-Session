@@ -69,6 +69,7 @@
 .imgName {
     display: flex;
     align-items: center;
+    gap: 2px;
 }
 
 .onePost {
@@ -164,4 +165,13 @@ a {
 #element3,
 #element4{
     border-left: 10px solid #4c0519;
+}
+.jobTitle{
+    font-size: smaller;
+}
+
+.imgIcon{
+    width:45px; 
+    height:45px;
+    border-radius: 50%;
 }

@@ -10,10 +10,11 @@ commenter
 
         const comment = `<div class="comment borderRadiase">
                     <div class="imgName">
-                        <img src="./assets/${imgSrc}" alt="icon" width="30px" height="30px"
-                            style="border-radius: 50%;">&nbsp;&nbsp;
+                        <img src="./assets/${imgSrc}" alt="icon" class="imgIcon">&nbsp;&nbsp;
                              <a href="https://github.com/${gitHubUserName}" target="_blank">
-                 <span class="commentAuther">${name}</span></a>
+                                <span class="commentAuther">${name}</span>
+                                <div class="jobTitle">${jobTitle}</div>
+                            </a>
                     </div>
                     <div>${commentdata}</div>
                 </div>
