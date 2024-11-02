@@ -12,6 +12,6 @@ export const commenters = [
         sex: "Male",
         gitHubUserName: "ahmadjoba96",
         commentData: "perfect sisson",
-    }
+    },
 ]
 
