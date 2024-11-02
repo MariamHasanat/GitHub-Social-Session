@@ -4,7 +4,8 @@ export const commenters = [
         jobTitle: "Frontend Developer",
         sex: "female",
         gitHubUserName: "MajdTamimi",
-        commentData: "Nice sisson",
-    }
+        commentData: "Nice session",
+    },
+    
 ]
 
