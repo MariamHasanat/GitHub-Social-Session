@@ -1,4 +1,4 @@
-export const commenter = [
+export const commenters = [
     {
         name: "Majd Tamimi",
         jobTitle: "Frontend Developer",

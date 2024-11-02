@@ -1,11 +1,11 @@
-import { commenter } from "./data.js";
+import { commenters } from "./data.js";
 
 const container = document.getElementById('comments');
 
-commenter
+commenters
     .sort((a, b) => a.name.localeCompare(b.name))
     .forEach(profile => {
-        const { sex, name, jobTitle, gitHubUserName, commentdata } = profile;
+        const { sex, name, jobTitle, gitHubUserName, commentData } = profile;
         const imgSrc = sex == "male" ? "man.png" : "woman.png";
 
         const comment = `<div class="comment borderRadiase">
@@ -16,7 +16,7 @@ commenter
                                 <div class="jobTitle">${jobTitle}</div>
                             </a>
                     </div>
-                    <div>${commentdata}</div>
+                    <div>${commentData}</div>
                 </div>
     `;
         container.innerHTML += comment;
