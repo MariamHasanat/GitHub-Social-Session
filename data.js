@@ -11,7 +11,7 @@ export const commenters = [
         jobTitle: "Backend Developer",
         sex: "male",
         gitHubUserName: "Momen-G-Ar",
-        commentData: "Nice session + Feedback, try to make conflict",
+        commentData: "Nice session + Thank you for your hard work",
     },
     
 ]
