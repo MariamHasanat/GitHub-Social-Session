@@ -57,7 +57,7 @@
     background-color: #fefefe;
     height: 100%;
     display: grid;
-    grid-template-columns: 25vw 5vw 55vw 15vw;
+    grid-template-columns: 25% 5% 55% 15%;
     grid-template-rows: auto;
     grid-template-areas:
         "header header header header"
